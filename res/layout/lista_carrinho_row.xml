@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp" >
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@+id/fundo"
+            android:layout_width="40dp"
+            android:layout_height="50dp"/>
+        <ImageView
+            android:id="@+id/ivIconeLista"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/container"
+        android:id="@+id/relativeLayout">
+        <TextView
+            android:id="@+id/row_list_item_prod_text_view_nome_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/titulo_verde"
+            android:text="Primeira Lista"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/row_list_total_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:text="Qtde"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="#787A7B"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/container"
+        android:layout_toEndOf="@+id/container">
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/calendar"
+            android:layout_marginTop="1dp"/>
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31 de Fevereiro"
+            android:textSize="11dp"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"/>
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/relogio"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:20 am"
+            android:textSize="11dp"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

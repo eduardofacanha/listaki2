@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_cinza"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Supermercado Carrefour"
+        android:textColor="@color/titulo_tela_cinza"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/borda_cinza"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/grid_lista_prod_usu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/borda_cinza"
+        android:background="@color/branco"
+        android:dividerHeight="0.1dp" >
+    </ListView>
+
+
+</LinearLayout>
+<!-- From: file:/Users/eduardofacanhaf/Documents/reposi2/listaki/codigofonte/listaki/res/layout/lista_produtos_mercado.xml -->

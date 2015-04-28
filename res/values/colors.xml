@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="branco">#FFFFFF</color>
+    <color name="linha_par">#FFFFFF</color>
+    <color name="linha_impar">#EEEEEE</color>
+
+    <color name="aki_amarelo">#FFD266</color>
+
+    <color name="titulo_tela_cinza">#324644</color>
+    <color name="titulo_verde">#4D6E67</color>
+    <color name="subtitulo_cinza">#989898</color>
+    <color name="comentario_laranja">#FF8000</color>
+
+    <color name="bg_cinza">#E2E2E2</color>
+    <color name="borda_cinza">#D4D4D4</color>
+
+</resources>

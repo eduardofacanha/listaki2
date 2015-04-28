@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco" >
+
+    <RelativeLayout
+        android:id="@+id/box_titulo_carrinho"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2B4B52">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="listaki"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|italic"
+            android:fontFamily="sans-serif-light"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2" />
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:background="@drawable/scan"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="23dp"
+            android:layout_marginEnd="23dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/nome_lista"
+        android:layout_below="@id/box_titulo_carrinho"
+        android:background="@color/bg_cinza"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/lista_carrinho_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/lb_nome_lista"
+            android:textColor="@color/titulo_verde"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lista_prod_usu_list_view_produtos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nome_lista"
+        android:divider="#2DAB90"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/lista_prod_usu_bt_buscar_cotacao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@layout/styles_buttons"
+        android:text="@string/bt_buscar_cotacao"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout><!-- From: file:/Users/eduardofacanhaf/Documents/reposi2/listaki/codigofonte/listaki/res/layout/lista_produtos_carrinho.xml -->

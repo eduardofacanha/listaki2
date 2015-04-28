@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:background="@color/branco">
+
+    <ImageView
+        android:id="@+id/imageSupermercado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/carrefour" />
+
+    <TextView
+        android:id="@+id/grid_cotacao_row_nome_supermercado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageSupermercado"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/imageSupermercado"
+        android:text="Supermercado"
+        android:textColor="@color/titulo_verde"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/valor_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/grid_cotacao_row_nome_supermercado"
+        android:layout_below="@id/grid_cotacao_row_nome_supermercado"
+        android:text="Valor total: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/subtitulo_cinza" />
+
+    <TextView
+        android:id="@+id/grid_cotacao_row_valor_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grid_cotacao_row_nome_supermercado"
+        android:layout_toRightOf="@id/valor_total"
+        android:text="R$"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/subtitulo_cinza"
+        android:textStyle="bold" />
+
+    <!-- <ImageButton
+         android:id="@+id/lista_prod_usu_bt_buscar_cotacao_seta"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:paddingRight="20dp"
+         android:background="@android:color/transparent"
+         android:src="@drawable/seta" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/grid_cotacao_row_qtde_desejada" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="Qtde Desejada" -->
+    <!-- android:textSize="12sp"   /> -->
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/grid_cotacao_row_qtde_disponivel" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="Qtde Disponivel" -->
+    <!-- android:textSize="12sp" /> -->
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/grid_cotacao_row_qtde_nao_disponivel" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="Qtde Disponivel" -->
+    <!-- android:textSize="12sp"   /> -->
+
+</RelativeLayout>

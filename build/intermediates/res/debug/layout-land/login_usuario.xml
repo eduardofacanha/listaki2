@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/styles_background"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/box_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lb_DescriptionLogo_List"
+                android:textColor="@color/branco"
+                android:textSize="55sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvAki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lb_DescriptionLogo_Aki"
+                android:textColor="@color/aki_amarelo"
+                android:textSize="55sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/box_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@layout/styles_edittext"
+                android:drawableLeft="@drawable/ic_usuario"
+                android:drawablePadding="20dp"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/branco"
+                android:typeface="normal"
+                android:focusable="true">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtSenha"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@layout/styles_edittext"
+                android:drawableLeft="@drawable/ic_cadeado"
+                android:drawablePadding="23dp"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/branco"
+                android:typeface="normal"
+                android:focusable="true"/>
+
+            <Button
+                android:id="@+id/btnEntrar"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@layout/styles_buttons"
+                android:text="Entrar"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btnEsqueceuSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:autoLink="web"
+                android:background="@android:color/transparent"
+                android:text="Esqueceu sua senha?"
+                android:textColor="@color/branco"
+                android:textSize="17sp" />
+
+            <!-- android:layout_marginLeft="-5dip" -->
+            <!-- android:layout_marginRight="-5dip" -->
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:autoLink="web"
+                android:background="@android:color/transparent"
+                android:text="Cadastre-se"
+                android:textSize="17sp"
+                android:textColor="@color/branco"
+                android:focusable="true">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/eduardofacanhaf/Documents/reposi2/listaki/codigofonte/listaki/res/layout-land/login_usuario.xml -->

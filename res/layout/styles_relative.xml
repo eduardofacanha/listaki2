@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Define o estilo do layout relative (ou qualquer outro), deixando as bordas redondas.  -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >  
+    <corners android:radius="8dp" />
+    <stroke  
+      android:width="2dp"/>   
+
+    	<solid android:color="#dfdfdf" />  
+    </shape>

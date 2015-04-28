@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item>
+      <shape >
+          <solid android:color="#ffffff" />
+      </shape>
+  </item>
+
+  <!-- main color -->
+  <item android:bottom="0.5dp"
+      android:left="0.5dp"
+      android:right="0.5dp">
+      <shape >
+          <solid android:color="#A9A9A9" />
+      </shape>
+  </item>
+
+  <!-- draw another block to cut-off the left and right bars -->
+  <item android:bottom="5.0dp">
+      <shape >
+          <solid android:color="#ffffff" />
+      </shape>
+  </item>
+</layer-list><!-- From: file:/Users/eduardofacanhaf/Documents/reposi2/listaki/codigofonte/listaki/res/layout/styles_edittext_dialog.xml -->

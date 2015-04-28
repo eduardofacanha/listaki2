@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<merger version="3"><dataSet config="main"><source path="/Users/eduardofacanhaf/Desktop/listaki/codigofonte/listaki/src/androidTest/res"/><source path="/Users/eduardofacanhaf/Desktop/listaki/codigofonte/listaki/build/generated/res/rs/test/debug"/><source path="/Users/eduardofacanhaf/Desktop/listaki/codigofonte/listaki/build/generated/res/generated/test/debug"/></dataSet><mergedItems/></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/Users/eduardofacanhaf/Documents/BuriTech/listaki/codigofonte/listaki/src/androidTest/res"/><source path="/Users/eduardofacanhaf/Documents/BuriTech/listaki/codigofonte/listaki/build/generated/res/rs/test/debug"/><source path="/Users/eduardofacanhaf/Documents/BuriTech/listaki/codigofonte/listaki/build/generated/res/generated/test/debug"/></dataSet><mergedItems/></merger>
+>>>>>>> copia

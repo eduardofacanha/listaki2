@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="300dp">
+
+
+
+    <EditText
+
+        android:id="@+id/etValor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/tvMens"
+        android:layout_below="@+id/tvMens"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:background="#ffffff"
+        android:typeface="normal"
+        android:inputType="text" />
+
+
+        <Button
+            android:layout_marginTop="0dp"
+            android:id="@+id/btn_Confirmar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:text="Criar"
+            android:textColor="#696969"
+            android:layout_margin="@dimen/padding_5dp"
+            android:textStyle="normal"/>
+
+
+</LinearLayout>

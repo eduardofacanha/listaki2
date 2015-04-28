@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <solid android:color="#339AB8" />
+
+</shape><!-- From: file:/Users/eduardofacanhaf/Documents/reposi2/listaki/codigofonte/listaki/res/layout/styles_buttons.xml -->

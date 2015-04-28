@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@layout/styles_background"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></LinearLayout>
+        <ImageView
+            android:id="@+id/box_titulo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/marca"
+            android:layout_above="@+id/box_login"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:id="@+id/box_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@layout/styles_edittext"
+                android:drawableLeft="@drawable/ic_usuario"
+                android:drawablePadding="20dp"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/branco"
+                android:typeface="normal"
+                android:focusable="true">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtSenha"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@layout/styles_edittext"
+                android:drawableLeft="@drawable/ic_cadeado"
+                android:drawablePadding="23dp"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/branco"
+                android:typeface="normal"
+                android:focusable="true"/>
+
+            <Button
+                android:id="@+id/btnEntrar"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@layout/styles_buttons"
+                android:text="Entrar"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnEsqueceuSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:autoLink="web"
+                android:background="@android:color/transparent"
+                android:text="Esqueceu sua senha?"
+                android:textColor="@color/branco"
+                android:textSize="17sp" />
+
+            <!-- android:layout_marginLeft="-5dip" -->
+            <!-- android:layout_marginRight="-5dip" -->
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:autoLink="web"
+            android:background="@layout/styles_buttons2"
+            android:text="Cadastre-se"
+            android:textSize="17sp"
+            android:textColor="@color/branco"
+            android:focusable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </Button>
+
+
+    </RelativeLayout>
+
+</ScrollView>

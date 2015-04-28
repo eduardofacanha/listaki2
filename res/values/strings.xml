@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListAki</string>
+    <string name="action_settings">Configurações</string>
+    <string name="add">Adicionar a Lista</string>
+    <string name="BtlerEAN">Coletar Código EAN</string>
+    <string name="nome">Código do Produto</string>
+    <string name="title_activity_item_lista">ItemListaActivity</string>
+    <string name="Btdel">Deletar itens selecionados</string>
+    <string name="lvazio">A lista está vazia</string>
+
+    <!-- ============================ Labels ============================ -->
+    <string name="lb_codigo_barras">Código de Barras</string>
+    <string name="lb_nome_lista">Nome da Lista</string>
+    <string name="lb_produto">Produto</string>
+    <string name="lb_DescriptionLogo">listaki</string>
+    <string name="lb_DescriptionLogo_List">list</string>
+    <string name="lb_DescriptionLogo_Aki">aki</string>
+    <string name="cheese_hunt_hint">Pesquise</string>
+    <string name="lb_cotacoes">Mercados</string>
+
+    <!-- ============================ Buttons ============================ -->
+    <string name="bt_buscar_cotacao">Buscar em Mercados</string>
+    <string name="bt_ler_cod_barras">Ler Código Barras</string>
+    <string name="bt_ver_localizacao">Ver Localização</string>
+    <string name="bt_incluir_cod_barras">+</string>
+    <string name="bt_detalhar">Detalhar</string>
+    <string name="bt_criar_lista">+</string>
+    <string name="bt_x">X</string>
+    <string name="svCadastroUsuario">Cadastro Usuario</string>
+
+
+    <!-- ============================ Alertas ============================ -->
+
+    <!-- ============================ DrawerList ============================ -->
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+    <string name="title_activity_mercado_maps">MercadoMapsActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
